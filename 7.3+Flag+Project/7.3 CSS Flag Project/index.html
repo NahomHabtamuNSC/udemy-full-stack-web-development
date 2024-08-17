@@ -6,7 +6,59 @@
   <title>CSS Flag Project</title>
   <style>
     /* Write your CSS Code here */
-    
+    .flag {
+  width: 900px;
+  height: 600px;
+  background-color: #ce1126; /* Red color for top and bottom stripes */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.flag > p {
+  color: white;
+  font-size: 48px;
+  margin: 0;
+  position: absolute;
+  top: -60px; /* Position the text above the flag */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10; /* Make sure text is above the flag */
+}
+
+.flag > div {
+  width: 100%;
+  height: 60%;
+  background-color: #002868; /* Blue color for the middle stripe */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.flag > div > div {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag > div > div > p {
+  color: black;
+  font-size: 48px;
+  margin: 0;
+  line-height: 1.2;
+  text-align: center;
+}
+
+
+
+
   </style>
 </head>
 
@@ -20,7 +72,7 @@ Hint 2: You can use CSS inspection to get the colors from
 https://appbrewery.github.io/flag-of-laos/
 -->
 
-<body>
+<body>-
   <div class="flag">
     <p>The Flag</p>
     <div>

@@ -1,3 +1,6 @@
 {
-    "livePreview.defaultPreviewPath": "/6.1+Font+Properties/index.html"
+    "livePreview.defaultPreviewPath": "/6.1+Font+Properties/index.html",
+    "files.readonlyInclude": {
+        "{**/.c4z/.extsrcs/*.PROTSYM.cbl,**/.c4z/.extsrcs/*.PROTSYM.listing}": true
+    }
 }
